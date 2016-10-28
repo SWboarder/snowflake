@@ -1,0 +1,362 @@
+body{
+	background-color: #bbddff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+body, div{
+	box-sizing: border-box;
+}
+
+.centering-div{
+	display: inline-block;
+	width: 1000px;
+	height: 1000px;
+}
+
+.container{
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 1000px;
+	height: 1000px;
+	/*background-color: #ddd;*/
+	-ms-transform: scale(1) rotate(90deg); /* IE 9 */
+    -webkit-transform: scale(1) rotate(90deg); /* Chrome, Safari, Opera */
+	transform: scale(1) rotate(90deg);
+}
+
+.hover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hover:hover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.image{
+	width: 175%;
+	height: 175%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#image-one{
+	background-image: url("./kingston.jpg");
+	-ms-transform: skew(-30deg) rotate(-90deg); /* IE 9 */
+    -webkit-transform: skew(-30deg) rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg) rotate(-90deg) translate(60px, -110px);
+}
+
+#image-two{
+	background-image: url("./fernie_fam.jpg");
+	-ms-transform: skew(30deg) rotate(-90deg); /* IE 9 */
+    -webkit-transform: skew(30deg) rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg) rotate(-90deg) translate(65px, -40px);
+}
+
+#image-three{
+	background-image: url("./tree.jpg");
+	-ms-transform: skew(-30deg) rotate(-90deg); /* IE 9 */
+    -webkit-transform: skew(-30deg) rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg) rotate(-90deg) translate(30px, -110px);
+}
+
+#image-four{
+	background-image: url("./snow_heart.jpg");
+	-ms-transform: skew(30deg) rotate(-90deg); /* IE 9 */
+    -webkit-transform: skew(30deg) rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg) rotate(-90deg) translate(60px, -40px);
+}
+
+#image-five{
+	background-image: url("./chairlift3.jpg");
+	-ms-transform: skew(-30deg) rotate(-150deg); /* IE 9 */
+    -webkit-transform: skew(-30deg) rotate(-150deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg) rotate(-150deg) translate(130px, -20px);
+}
+
+#image-six{
+	background-image: url("./fam.jpg");
+	-ms-transform: skew(-30deg) rotate(-150deg); /* IE 9 */
+    -webkit-transform: skew(-30deg) rotate(-150deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg) rotate(-150deg) translate(130px, 10px);
+}
+
+.image-circle{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: rotate(-90deg);
+}
+
+#c-image-one{
+	background-image: url("./mountain.jpg");
+}
+
+#c-image-two{
+	background-image: url("./coffee.jpg");
+}
+
+#c-image-three{
+	background-image: url("./icy_window.jpg");
+}
+
+#c-image-four{
+	background-image: url("./pow.jpg");
+}
+
+#c-image-five{
+	background-image: url("./old.jpg");
+}
+
+#c-image-six{
+	background-image: url("./gifts.jpg");
+}
+
+.diamond{
+	display: block;
+	width: 200px;
+	height: 173.2px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#one{
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	-ms-transform: skew(30deg); /* IE 9 */
+    -webkit-transform: skew(30deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg);
+	top: 326.8px;
+	left: 250px;
+	border-left: 5px solid #fff;
+	border-top: 5px solid #fff;
+}
+
+#two{
+	/*background-color: orange;*/
+	-ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg);
+	top: 326.8px;
+	left: 550px;
+	border-right: 5px solid #fff;
+	border-top: 5px solid #fff;
+}
+
+#three{
+	/*background-color: yellow;*/
+	-ms-transform: skew(30deg); /* IE 9 */
+    -webkit-transform: skew(30deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg);
+	top: 500px;
+	left: 550px;
+	border-right: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+#four{
+	/*background-color: green;*/
+	-ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg);
+	top: 500px;
+	left: 250px;
+	border-left: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+#five{
+	/*background-color: blue;*/
+	-ms-transform: rotate(60deg) skew(30deg); /* IE 9 */
+    -webkit-transform: rotate(60deg) skew(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(60deg) skew(30deg);
+	top: 240.5px;
+	left: 400px;
+	border-left: 5px solid #fff;
+	border-top: 5px solid #fff;
+}
+
+#six{
+	/*background-color: purple;*/
+	-ms-transform: rotate(60deg) skew(30deg); /* IE 9 */
+    -webkit-transform: rotate(60deg) skew(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(60deg) skew(30deg);
+	top: 586.5px;
+	left: 400px;
+	border-right: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+.line{
+	width: 800px;
+	height: 6px;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+	/*display: none;*/
+}
+
+#line-one{
+	top: 497px;
+	left: 100px;
+}
+
+#line-two{
+	-ms-transform: rotate(120deg); /* IE 9 */
+    -webkit-transform: rotate(120deg); /* Chrome, Safari, Opera */
+	transform: rotate(120deg);
+	top: 497px;
+	left: 100px;
+}
+
+#line-three{
+	-ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+	transform: rotate(60deg);
+	top: 497px;
+	left: 100px;
+}
+
+.circle{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 100%;
+	border: 6px solid #fff;
+	overflow: hidden;
+}
+
+#circle-one{
+	top: 450px;
+	left: 0px;
+}
+
+#circle-two{
+	top: 450px;
+	left: 900px;
+}
+
+#circle-three{
+	top: 60px;
+	left: 225px;
+}
+
+#circle-four{
+	top: 60px;
+	left: 675px;
+}
+
+#circle-five{
+	top: 840px;
+	left: 225px;
+}
+
+#circle-six{
+	top: 840px;
+	left: 675px;
+}
+
+.v{
+	display: inline-block;
+	position: absolute;	
+	width: 100px;
+	height: 86.7px;
+}
+
+#v-one{
+	-ms-transform: rotate(-60deg) skew(-30deg) ; /* IE 9 */
+    -webkit-transform: rotate(-60deg) skew(-30deg); /* Chrome, Safari, Opera */
+	transform: rotate(-60deg) skew(-30deg);
+	top: 458px;
+	left: 100px;
+	border-right: 8px solid #fff;
+	border-bottom: 8px solid #fff;
+}
+
+#v-two{
+	-ms-transform: rotate(60deg) skew(30deg); /* IE 9 */
+    -webkit-transform: rotate(60deg) skew(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(60deg) skew(30deg);
+	top: 458px;
+	left: 800px;
+	border-left: 8px solid #fff;
+	border-bottom: 8px solid #fff;
+}
+
+#v-three{
+	-ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg);
+	top: 150px;
+	left: 275px;
+	border-right: 8px solid #fff;
+	border-bottom: 8px solid #fff;
+}
+
+#v-four{
+	-ms-transform: skew(30deg); /* IE 9 */
+    -webkit-transform: skew(30deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg);
+	top: 150px;
+	left: 625px;
+	border-left: 8px solid #fff;
+	border-bottom: 8px solid #fff;
+}
+
+#v-five{
+	-ms-transform: skew(30deg); /* IE 9 */
+    -webkit-transform: skew(30deg); /* Chrome, Safari, Opera */
+	transform: skew(30deg);
+	top: 765px;
+	left: 275px;
+	border-right: 8px solid #fff;
+	border-top: 8px solid #fff;
+}
+
+#v-six{
+	-ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Chrome, Safari, Opera */
+	transform: skew(-30deg);
+	top: 765px;
+	left: 625px;
+	border-left: 8px solid #fff;
+	border-top: 8px solid #fff;
+}
+
+@media screen and (max-width: 1000px){
+	.centering-div{
+		width: 750px;
+		height: 750px;
+	}
+
+	.container{
+		-ms-transform: scale(0.75) rotate(90deg) translate(0px, 175px); /* IE 9 */
+	    -webkit-transform: scale(0.75) rotate(90deg) translate(0px, 175px); /* Chrome, Safari, Opera */
+		transform: scale(0.75) rotate(90deg) translate(0px, 175px);
+	}
+}
+
+@media screen and (max-width: 750px){
+	.centering-div{
+		width: 500px;
+		height: 500px;
+	}
+
+	.container{
+		-ms-transform: scale(0.5) rotate(90deg) translate(0px, 500px); /* IE 9 */
+	    -webkit-transform: scale(0.5) rotate(90deg) translate(0px, 500px); /* Chrome, Safari, Opera */
+		transform: scale(0.5) rotate(90deg) translate(0px, 500px);
+	}
+}
